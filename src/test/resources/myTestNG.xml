@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+	<test thread-count="1" verbose="2" name="Default test">
+		<classes>
+			<class name="com.web365.filter.test.OnlineArmenianStoreFilterFeaturedTest" />
+			<class name="com.web365.filter.test.OnlineArmenianStoreFilterBestSellingTest" />
+			<class name="com.web365.filter.test.OnlineArmenianStoreFilterNewToOldTest" />
+			<class name="com.web365.filter.test.OnlineArmenianStoreFilterOldToNewTest" />
+			<class name="com.web365.filter.test.OnlineArmenianStoreFilterPriceLowToHighTest" />
+			<class name="com.web365.filter.test.OnlineArmenianStoreFilterPriceHighToLowTest" />
+			<class name="com.web365.search.test.OnlineArmenianStoreSearchNumbersTest" />
+			<class name="com.web365.search.test.OnlineArmenianStoreSearchLettersTest" />
+			<class name="com.web365.search.test.OnlineArmenianStoreSearchSpecialCharactersTest" />
+			<class name="com.web365.search.test.OnlineArmenianStoreSearchBooksTest" />
+			<class name="com.web365.search.test.OnlineArmenianStoreSearchArtsAndCraftsTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomePageTest" />
+			<class name="com.web365.signup.test.OnlineArmenianStoreSignUpTest" />
+			<class name="com.web365.login.test.OnlineArmenianStoreLogInOnlyEmailTest" />
+			<class name="com.web365.login.test.OnlineArmenianStoreLogInOnlyPasswordTest" />
+			<class name="com.web365.login.test.OnlineArmenianStoreLogInRecoverPasswordTest" />
+			<class name="com.web365.login.test.OnlineArmenianStoreLogInOnlyEmailTest" />
+			<class name="com.web365.login.test.OnlineArmenianStoreLogInValidPasswordTest" />
+			<class name="com.web365.login.test.OnlineArmenianStorelogInMissingCharTest" />
+			<class name="com.web365.login.test.OnlineArmenianStoreLogInMissingCredentialsTest" />
+			
+			
+			
+			
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
