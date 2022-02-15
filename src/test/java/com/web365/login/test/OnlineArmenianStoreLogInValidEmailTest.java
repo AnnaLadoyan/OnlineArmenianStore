@@ -10,7 +10,7 @@ public class OnlineArmenianStoreLogInValidEmailTest extends OnlineArmenianStoreB
 	
 	@Test
 	public void onlineArmenianStoreLogInValidEmail() throws InterruptedException {
-		System.out.println("Test Case ID Search17");
+		System.out.println("Test Case ID LogIn6");
 		System.out.println(" Verify user is able to login with a valid email");
 		OnlineArmenianStoreLogInValidEmail logInValidEmail = new OnlineArmenianStoreLogInValidEmail(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");

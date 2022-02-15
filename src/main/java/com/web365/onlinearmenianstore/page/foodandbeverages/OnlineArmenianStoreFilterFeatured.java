@@ -1,7 +1,6 @@
-package com.web365.onlinearmenianstore.filter;
+package com.web365.onlinearmenianstore.page.foodandbeverages;
 
-import static com.web365.onlinearmenianstore.filter.OnlineArmenianStoreFilterConstants.*;
-
+import static com.web365.onlinearmenianstore.page.foodandbeverages.OnlineArmenianStoreFilterConstants.*;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

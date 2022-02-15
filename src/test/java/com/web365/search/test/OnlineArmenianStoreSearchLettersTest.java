@@ -5,13 +5,12 @@ import org.testng.annotations.Test;
 
 import com.web365.onlinearmenianstore.base.test.OnlineArmenianStoreBaseTest;
 import com.web365.onlinearmenianstore.search.OnlineArmenianStoreSearchLetters;
-import com.web365.onlinearmenianstore.search.OnlineArmenianStoreSearchNumbers;
 
 public class OnlineArmenianStoreSearchLettersTest extends OnlineArmenianStoreBaseTest {
 	
 	@Test
 	public void searchLettersTest() throws InterruptedException {
-		System.out.println("Test Case ID Search8");
+		System.out.println("Test Case ID Search3");
 		System.out.println("Verify user is able to enter letters in the search field");
 		OnlineArmenianStoreSearchLetters search = new OnlineArmenianStoreSearchLetters(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");

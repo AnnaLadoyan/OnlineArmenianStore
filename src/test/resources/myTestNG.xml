@@ -3,30 +3,36 @@
 <suite guice-stage="DEVELOPMENT" name="Default suite">
 	<test thread-count="1" verbose="2" name="Default test">
 		<classes>
-			<class name="com.web365.filter.test.OnlineArmenianStoreFilterFeaturedTest" />
-			<class name="com.web365.filter.test.OnlineArmenianStoreFilterBestSellingTest" />
-			<class name="com.web365.filter.test.OnlineArmenianStoreFilterNewToOldTest" />
-			<class name="com.web365.filter.test.OnlineArmenianStoreFilterOldToNewTest" />
-			<class name="com.web365.filter.test.OnlineArmenianStoreFilterPriceLowToHighTest" />
-			<class name="com.web365.filter.test.OnlineArmenianStoreFilterPriceHighToLowTest" />
+			<!-- <class name="com.web365.foodandbeverages.test.OnlineArmenianStoreFilterFeaturedTest" />
+			<class name="com.web365.foodandbeverages.test.OnlineArmenianStoreFilterBestSellingTest" />
+			<class name="com.web365.foodandbeverages.test.OnlineArmenianStoreFilterNewToOldTest" />
+			<class name="com.web365.foodandbeverages.test.OnlineArmenianStoreFilterOldToNewTest" />
+			<class name="com.web365.foodandbeverages.test.OnlineArmenianStoreFilterPriceLowToHighTest" />
+			<class name="com.web365.foodandbeverages.test.OnlineArmenianStoreFilterPriceHighToLowTest" />
 			<class name="com.web365.search.test.OnlineArmenianStoreSearchNumbersTest" />
 			<class name="com.web365.search.test.OnlineArmenianStoreSearchLettersTest" />
 			<class name="com.web365.search.test.OnlineArmenianStoreSearchSpecialCharactersTest" />
 			<class name="com.web365.search.test.OnlineArmenianStoreSearchBooksTest" />
 			<class name="com.web365.search.test.OnlineArmenianStoreSearchArtsAndCraftsTest" />
-			<class name="com.web365.home.test.OnlineArmenianStoreHomePageTest" />
-			<class name="com.web365.signup.test.OnlineArmenianStoreSignUpTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomePageTest" />-->
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeAllButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeBooksButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeFoodAndBeveragesButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeClothingJewelryAndAccessoriesButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeToysAndGamesButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeHealthAndBeautyButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeProductsButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeNewArrivalsButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeOnSaleItemButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeJewelryButtonTest" />
+			<!-- <class name="com.web365.signup.test.OnlineArmenianStoreSignUpTest" />
 			<class name="com.web365.login.test.OnlineArmenianStoreLogInOnlyEmailTest" />
 			<class name="com.web365.login.test.OnlineArmenianStoreLogInOnlyPasswordTest" />
 			<class name="com.web365.login.test.OnlineArmenianStoreLogInRecoverPasswordTest" />
 			<class name="com.web365.login.test.OnlineArmenianStoreLogInOnlyEmailTest" />
 			<class name="com.web365.login.test.OnlineArmenianStoreLogInValidPasswordTest" />
 			<class name="com.web365.login.test.OnlineArmenianStorelogInMissingCharTest" />
-			<class name="com.web365.login.test.OnlineArmenianStoreLogInMissingCredentialsTest" />
-			
-			
-			
-			
-		</classes>
+			<class name="com.web365.login.test.OnlineArmenianStoreLogInMissingCredentialsTest" />-->
+			</classes>
 	</test> <!-- Default test -->
 </suite> <!-- Default suite -->

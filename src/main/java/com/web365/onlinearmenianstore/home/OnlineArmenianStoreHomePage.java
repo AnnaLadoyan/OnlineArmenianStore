@@ -1,7 +1,6 @@
 package com.web365.onlinearmenianstore.home;
 
 import static com.web365.onlinearmenianstore.home.OnlineArmenianStoreHomeConstants.*;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,12 +23,12 @@ public class OnlineArmenianStoreHomePage extends OnlineArmenianStoreBasePage {
 	@FindBy(xpath = HOME_PAGE_XPATH)
 	public WebElement homePage;
 
-	public OnlineArmenianStoreHomePage homePage() {
+	public OnlineArmenianStoreHomePage aboutUs() {
 		aboutUs.click();
 		return new OnlineArmenianStoreHomePage(this.driver);
 	}
 
-	public OnlineArmenianStoreHomePage home() {
+	public OnlineArmenianStoreHomePage oasLogo() {
 		onlineArmenianStoreLogo.click();
 		return new OnlineArmenianStoreHomePage(this.driver);
 	}

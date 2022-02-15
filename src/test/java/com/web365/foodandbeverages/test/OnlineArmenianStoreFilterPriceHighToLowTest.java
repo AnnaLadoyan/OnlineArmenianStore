@@ -1,11 +1,10 @@
-package com.web365.filter.test;
+package com.web365.foodandbeverages.test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.web365.onlinearmenianstore.base.test.OnlineArmenianStoreBaseTest;
-import com.web365.onlinearmenianstore.filter.OnlineArmenianStoreFilterPriceHighToLow;
-import com.web365.onlinearmenianstore.filter.OnlineArmenianStoreFilterPriceLowToHigh;
+import com.web365.onlinearmenianstore.page.foodandbeverages.OnlineArmenianStoreFilterPriceHighToLow;
 
 public class OnlineArmenianStoreFilterPriceHighToLowTest extends OnlineArmenianStoreBaseTest {
 	

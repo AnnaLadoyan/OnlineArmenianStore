@@ -10,7 +10,7 @@ public class OnlineArmenianStoreLogInMissingCredentialsTest extends OnlineArmeni
 	
 	@Test
 	public void onlineArmenianStoreLogInMissingCredentials() throws InterruptedException {
-		System.out.println("Test Case ID Search20");
+		System.out.println("Test Case ID LogIn2");
 		System.out.println("Verify user is not allowed to login without filling in the email and password fields");
 		OnlineArmenianStoreLogInMissingCredentials logInMissingCredentials = new OnlineArmenianStoreLogInMissingCredentials(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");

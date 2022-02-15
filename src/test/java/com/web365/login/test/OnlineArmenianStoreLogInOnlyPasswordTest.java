@@ -10,7 +10,7 @@ public class OnlineArmenianStoreLogInOnlyPasswordTest extends OnlineArmenianStor
 	
 	@Test
 	public void onlineArmenianStoreLogInOnlyPassword() throws InterruptedException {
-		System.out.println("Test Case ID Search15");
+		System.out.println("Test Case ID LogIn4");
 		System.out.println("Verify user is not allowed to login with only password");
 		OnlineArmenianStoreLogInOnlyPassword logInPassword = new OnlineArmenianStoreLogInOnlyPassword(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");

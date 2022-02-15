@@ -10,7 +10,7 @@ public class OnlineArmenianStoreSignUpTest extends OnlineArmenianStoreBaseTest{
 	
 	@Test
 	public void onlineArmenianStoreSignUp() throws InterruptedException {
-		System.out.println("Test Case ID Search13");
+		System.out.println("Test Case ID SignUp1");
 		System.out.println("Verify 'Create your Account' button is clickable");
 		OnlineArmenianStoreSignUpPage signUpPage = new OnlineArmenianStoreSignUpPage(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");

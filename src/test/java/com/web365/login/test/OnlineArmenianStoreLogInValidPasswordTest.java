@@ -10,7 +10,7 @@ public class OnlineArmenianStoreLogInValidPasswordTest extends OnlineArmenianSto
 	
 	@Test
 	public void onlineArmenianStoreLogInValidPassword() throws InterruptedException {
-		System.out.println("Test Case ID Search18");
+		System.out.println("Test Case ID LogIn7");
 		System.out.println(" Verify user is able to login with a valid password");
 		OnlineArmenianStoreLogInValidPassword logInValidPassword = new OnlineArmenianStoreLogInValidPassword(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");

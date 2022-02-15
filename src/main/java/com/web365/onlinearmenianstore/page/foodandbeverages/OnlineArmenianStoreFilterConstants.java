@@ -1,4 +1,4 @@
-package com.web365.onlinearmenianstore.filter;
+package com.web365.onlinearmenianstore.page.foodandbeverages;
 
 public class OnlineArmenianStoreFilterConstants {
 	

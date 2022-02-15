@@ -10,7 +10,7 @@ public class OnlineArmenianStorelogInMissingCharTest extends OnlineArmenianStore
 	
 	@Test
 	public void onlineArmenianStorelogInMissingChar() throws InterruptedException {
-		System.out.println("Test Case ID Search19");
+		System.out.println("Test Case ID LogIn1");
 		System.out.println("Verify user is not allowed to sign in without an @ in the email field");
 		OnlineArmenianStoreLogInMissingChar logInMissingChar = new OnlineArmenianStoreLogInMissingChar(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");

@@ -10,7 +10,7 @@ public class OnlineArmenianStoreSearchSpecialCharactersTest extends OnlineArmeni
 
 	@Test
 	public void searchSpecialCharactersTest() throws InterruptedException {
-		System.out.println("Test Case ID Search9");
+		System.out.println("Test Case ID Search5");
 		System.out.println("Verify user is able to enter special characters in the search field");
 		OnlineArmenianStoreSearchNumbers search = new OnlineArmenianStoreSearchNumbers(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");
