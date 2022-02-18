@@ -18,7 +18,7 @@ public class OnlineArmenianStoreHomeJewelryButtonTest extends OnlineArmenianStor
 		jewelryButton = jewelryButton.jewelryButton();
 		System.out.println("Step 1. Click on the 'Jewelry' button");
 		
-		Assert.assertTrue(jewelryButton.jewelryButton.isDisplayed());
+		Assert.assertTrue(jewelryButton.jewelryPage.isDisplayed());
 	}
 
 

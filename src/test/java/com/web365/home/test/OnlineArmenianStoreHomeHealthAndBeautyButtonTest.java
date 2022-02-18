@@ -17,7 +17,7 @@ public class OnlineArmenianStoreHomeHealthAndBeautyButtonTest extends OnlineArme
 		healthAndBeautyButton = healthAndBeautyButton.healthAndBeautyButton();
 		System.out.println("Step 1. Click on the 'Health and Beauty' button");
 		
-		Assert.assertTrue(healthAndBeautyButton.healthAndBeautyButton.isDisplayed());
+		Assert.assertTrue(healthAndBeautyButton.healthAndBeautyPage.isDisplayed());
 	}
 
 

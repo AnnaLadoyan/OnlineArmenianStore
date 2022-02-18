@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.web365.onlinearmenianstore.base.test.OnlineArmenianStoreBaseTest;
 import com.web365.onlinearmenianstore.home.OnlineArmenianStoreHomePage;
 
-public class OnlineArmenianStoreHomePageTest extends OnlineArmenianStoreBaseTest {
+public class OnlineArmenianStoreHomePageButtonTest extends OnlineArmenianStoreBaseTest {
 
 	@Test
 	public void onlineArmenianStoreHomePage() throws InterruptedException {

@@ -18,7 +18,7 @@ public class OnlineArmenianStoreHomeProductsButtonTest extends OnlineArmenianSto
 		homeProductsButton = homeProductsButton.homeProductsButton();
 		System.out.println("Step 1. Click on the 'Home Products' button");
 		
-		Assert.assertTrue(homeProductsButton.homeProductsButton.isDisplayed());
+		Assert.assertTrue(homeProductsButton.homeProductsPage.isDisplayed());
 	}
 
 

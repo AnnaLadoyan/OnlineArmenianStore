@@ -16,9 +16,9 @@ public class OnlineArmenianStoreHomeOnSaleItemButtonTest extends OnlineArmenianS
 		OnlineArmenianStoreHomeOnSaleItemsButton onSaleItemButton = new OnlineArmenianStoreHomeOnSaleItemsButton(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");
 		onSaleItemButton = onSaleItemButton.onSaleItemButton();
-		System.out.println("Step 1.  Click on the 'On Sale Items' buttonsss");
+		System.out.println("Step 1.  Click on the 'On Sale Items' button");
 		
-		Assert.assertTrue(onSaleItemButton.onSaleItemButton.isDisplayed());
+		Assert.assertTrue(onSaleItemButton.onSaleItemPage.isDisplayed());
 	}
 
 }

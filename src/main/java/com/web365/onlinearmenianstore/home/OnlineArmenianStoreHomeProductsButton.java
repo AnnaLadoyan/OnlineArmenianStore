@@ -19,7 +19,7 @@ public class OnlineArmenianStoreHomeProductsButton extends OnlineArmenianStoreBa
 	public WebElement homeProductsButton;
 	
 	@FindBy(xpath = HOME_PRODUCTS_PAGE_XPATH)
-	public WebElement homeProductspage;
+	public WebElement homeProductsPage;
 
 	
 	public OnlineArmenianStoreHomeProductsButton homeProductsButton() {

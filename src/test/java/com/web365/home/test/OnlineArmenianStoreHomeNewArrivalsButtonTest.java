@@ -18,7 +18,7 @@ public class OnlineArmenianStoreHomeNewArrivalsButtonTest extends OnlineArmenian
 		newArrivalsButton = newArrivalsButton.newArrivalsButton();
 		System.out.println("Step 1. Click on the 'New Arrivals' button");
 		
-		Assert.assertTrue(newArrivalsButton.newArrivalsButton.isDisplayed());
+		Assert.assertTrue(newArrivalsButton.newArrivalsPage.isDisplayed());
 	}
 
 }

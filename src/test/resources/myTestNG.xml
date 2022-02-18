@@ -25,6 +25,16 @@
 			<class name="com.web365.home.test.OnlineArmenianStoreHomeNewArrivalsButtonTest" />
 			<class name="com.web365.home.test.OnlineArmenianStoreHomeOnSaleItemButtonTest" />
 			<class name="com.web365.home.test.OnlineArmenianStoreHomeJewelryButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenainStoreHomeKitchenAndDiningButtonTest" />
+			<class name="com.web365.home.test.OnlineArmeinianStoreHomeAccessoriesButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeTeaButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeDriedFruitButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeAboutUsButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeContactUsButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomePrivacyAndPolicyButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeTermsOfServiceButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreShippingPolicyButtonTest" />
+			<class name="com.web365.home.test.OnlineArmenianStoreHomeRefundPolicyButtonTest" />
 			<!-- <class name="com.web365.signup.test.OnlineArmenianStoreSignUpTest" />
 			<class name="com.web365.login.test.OnlineArmenianStoreLogInOnlyEmailTest" />
 			<class name="com.web365.login.test.OnlineArmenianStoreLogInOnlyPasswordTest" />

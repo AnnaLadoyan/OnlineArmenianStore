@@ -10,7 +10,7 @@ public class OnlineArmenianStoreHomeAllButtonTest extends OnlineArmenianStoreBas
 	
 	@Test
 	public void onlineArmenianStoreHomeAllButton() throws InterruptedException {
-		System.out.println("Test Case ID Home3");
+		System.out.println("Test Case ID Home2");
 		System.out.println("Verify 'All' page is displayed when the button is clicked ");
 		OnlineArmenianStoreHomeAllButton allButton = new OnlineArmenianStoreHomeAllButton(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");

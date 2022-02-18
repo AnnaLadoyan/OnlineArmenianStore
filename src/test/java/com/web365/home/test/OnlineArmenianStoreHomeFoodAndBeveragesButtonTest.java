@@ -15,7 +15,7 @@ public class OnlineArmenianStoreHomeFoodAndBeveragesButtonTest extends OnlineArm
 		OnlineArmenianStoreHomeFoodAndBeveragesButton foodAndBeveragesButton = new OnlineArmenianStoreHomeFoodAndBeveragesButton(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");
 		foodAndBeveragesButton = foodAndBeveragesButton.foodAndBeveragesButton();
-		System.out.println("Step 1. Click on the 'Food and Beverages' buttonn");
+		System.out.println("Step 1. Click on the 'Food and Beverages' button");
 		
 		Assert.assertTrue(foodAndBeveragesButton.foodAndBeveragesPage.isDisplayed());
 	}

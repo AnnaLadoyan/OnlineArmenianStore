@@ -16,9 +16,9 @@ public class OnlineArmenianStoreHomeToysAndGamesButtonTest extends OnlineArmenia
 		OnlineArmenianStoreHomeToysAndGamesButton toysAndGamesButton = new OnlineArmenianStoreHomeToysAndGamesButton(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");
 		toysAndGamesButton = toysAndGamesButton.toysAnadGamesButton();
-		System.out.println("Step 1. Click on the 'Toys and Games' button");
+		System.out.println("Step 1. Click on the 'Toys and Games' buttonss");
 		
-		Assert.assertTrue(toysAndGamesButton.toysAnadGamesButton.isDisplayed());
+		Assert.assertTrue(toysAndGamesButton.toysAnadGamesPage.isDisplayed());
 	}
 
 
