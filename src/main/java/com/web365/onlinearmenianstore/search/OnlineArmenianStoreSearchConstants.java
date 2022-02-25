@@ -11,7 +11,7 @@ public class OnlineArmenianStoreSearchConstants {
 	public static final String ALL_CATEGORIES_XPATH = "//select[@id = 'search-product-type']";
 	public static final String BOOKS_XPATH = "//option[@value = 'Books']";
 	public static final String ARTS_AND_CRAFTS_XPATH = "//option[text() = 'Arts & Crafts']";
-	public static final String PRODUCT_FOR_ARTS_AND_CRAFTS_XPATH = "//h1[text() = 'Products for \"product_type:Arts & Crafts\"']";
+	public static final String PRODUCT_FOR_ARTS_AND_CRAFTS_XPATH = "//h1[text() = 'Products for \"canvas\"']";
 	
 	
 	

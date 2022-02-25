@@ -19,9 +19,9 @@ public class OnlineArmenianStoreHomeConstants {
 	public static final String HEALTH_AND_BEAUTY_PAGE_XPATH = "//h1[@class = 'collection__title heading h1']";
 	public static final String HOME_PRODUCTS_BUTTON_XPATH = "//a[@class = 'nav-bar__link link' and text() = 'Home Products']";
 	public static final String HOME_PRODUCTS_PAGE_XPATH = "//h1[text() = 'Home Products']";
-	public static final String NEW_ARRIVALS_BUTTON_XPATH = "/html/body/div[3]/section/nav/div/div/ul/li[8]/a/b";
+	public static final String NEW_ARRIVALS_BUTTON_XPATH = "/html/body/div[4]/section/nav/div/div/ul/li[8]/a";
 	public static final String NEW_ARRIVALS_PAGE_XPATH = "//h1[text() = 'New Products']";
-	public static final String ON_SALE_ITEM_BUTTON_XPATH = "/html/body/div[3]/section/nav/div/div/ul/li[9]/a/p";
+	public static final String ON_SALE_ITEM_BUTTON_XPATH = "/html/body/div[4]/section/nav/div/div/ul/li[9]";
 	public static final String ON_SALE_ITEM_PAGE_XPATH = "//h1[text() = 'On Sale Items']";
 	public static final String JEWELRY_BUTTON_XPATH = "//a[@class = 'footer__link-item link' and text() = 'Jewelry']";
 	public static final String JEWELRY_PAGE_XPATH = "//h1[text() = 'Jewelry']";
@@ -45,6 +45,22 @@ public class OnlineArmenianStoreHomeConstants {
 	public static final String ShIPPING_POLICY_PAGE_XPATH = "//h1[text() = 'Shipping Policy']";
 	public static final String REFUND_POLICY_BUTTON_XPATH = "//a[@class = 'footer__link-item link' and text() = 'Refund Policy']";
 	public static final String REFUND_POLICY_PAGE_XPATH = "//h1[text() = 'Refund Policy']";
+	public static final String FAQ_BUTTON_XPATH = "//a[@class = 'footer__link-item link' and text() = 'FAQ']";
+	public static final String FAQ_PAGE_XPATH = "//h1[text() = 'FAQ']";
+	public static final String FOR_VENDORS_BUTTON_XPATH = "//a[@class = 'footer__link-item link' and text() = 'For Vendors']";
+	public static final String FOR_VENDORS_PAGE_XPATH = "//h1[text() = 'For Vendors']";
+	public static final String VIEW_ALL_BUTTON_XPATH = "//a[@href = '/collections/new-products' and @class = 'section__action-link link']";
+	public static final String VIEW_ALL_PAGE_XPATH = "//h2[text() = 'Recently viewed']";
+	public static final String CHAT_WITH_US_BUTTON_XPATH = "//span[text() = ' Chat With Us']";
+	public static final String CHAT_WITH_US_PAGE_XPATH = "//strong[text() = 'Chat with Online Armenian Store']";
+	public static final String FACEBOOK_BUTTON_XPATH = "//script[@id = 'facebook-jssdk']";
+	public static final String FACEBOOK_PAGE_XPATH = "//div[@class = 'l9j0dhe7 buofh1pr j83agx80 bp9cbjyn']";
+
+
+
+
+
+
 
 
 

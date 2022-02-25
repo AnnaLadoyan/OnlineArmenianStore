@@ -21,7 +21,7 @@ public class OnlineArmenianStoreSearchLettersTest extends OnlineArmenianStoreBas
 		search = search.enter();
 		System.out.println("Step 3.  Click the ENTER key");
 
-		Assert.assertTrue(search.searchField.isDisplayed());
+		Assert.assertTrue(search.productForBooks.isDisplayed());
 	}
 
 }

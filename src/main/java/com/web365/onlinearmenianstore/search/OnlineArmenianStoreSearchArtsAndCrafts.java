@@ -45,7 +45,7 @@ public class OnlineArmenianStoreSearchArtsAndCrafts extends OnlineArmenianStoreB
 	}
 
 	public OnlineArmenianStoreSearchArtsAndCrafts artsAndCrafts() {
-		productForArtsAndCrafts.click();
+		artsAndCrafts.click();
 		return new OnlineArmenianStoreSearchArtsAndCrafts(this.driver);
 	}
 
