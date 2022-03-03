@@ -12,14 +12,14 @@ public class OnlineArmenianStoreLogInRecoverPasswordTest extends OnlineArmenianS
 	public void onlineArmenianStoreLogInRecoverPassword() throws InterruptedException {
 		System.out.println("Test Case ID LogIn5");
 		System.out.println("Verify 'Recover Password' button is clickable");
-		OnlineArmenianStorelogInRecoverPassword recoverPassword = new OnlineArmenianStorelogInRecoverPassword(driver);
+		OnlineArmenianStorelogInRecoverPassword logIn = new OnlineArmenianStorelogInRecoverPassword(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");
-		recoverPassword = recoverPassword.myAccount();
+		logIn = logIn.myAccount();
 		System.out.println("Step 1.  Click on the 'My Account' button");
-		recoverPassword = recoverPassword.recoverPasswordButton();
+		logIn = logIn.recoverPasswordButton();
 		System.out.println("Step 2.  Click on the 'Recover password' button");
 		
-		Assert.assertTrue(recoverPassword.recoverPassword.isDisplayed());
+		Assert.assertTrue(logIn.recoverPassword.isDisplayed());
 	}
 
 }

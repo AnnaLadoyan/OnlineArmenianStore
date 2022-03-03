@@ -12,18 +12,18 @@ public class OnlineArmenianStoreLogInOnlyEmailTest extends OnlineArmenianStoreBa
 	public void onlineArmenianStoreLogInEmail() throws InterruptedException {
 		System.out.println("Test Case ID LogIn3");
 		System.out.println("Verify user is not allowed to login with only email");
-		OnlineArmenianStoreLogInOnlyEmail logInEmail = new OnlineArmenianStoreLogInOnlyEmail(driver);
+		OnlineArmenianStoreLogInOnlyEmail logIn = new OnlineArmenianStoreLogInOnlyEmail(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");
-		logInEmail = logInEmail.myAccount();
+		logIn = logIn.myAccount();
 		System.out.println("Step 1.  Click on the 'My Account' button");
-		logInEmail = logInEmail.emailFieldClick();
+		logIn = logIn.emailFieldClick();
 		System.out.println("Step 2.  Click on the email field");
-		logInEmail = logInEmail.emailField();
+		logIn = logIn.emailField();
 		System.out.println("Step 3.  Enter 'annaladoyan1989@gmail.com' in th email field");
-		logInEmail = logInEmail.logInButton();
+		logIn = logIn.logInButton();
 		System.out.println("Step 4.  Click on the 'Login' button");
 		
-		Assert.assertTrue(logInEmail.errorMessage.isDisplayed());
+		Assert.assertTrue(logIn.errorMessage.isDisplayed());
 	}
 
 }

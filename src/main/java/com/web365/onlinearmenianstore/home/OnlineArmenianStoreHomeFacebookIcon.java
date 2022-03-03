@@ -16,13 +16,13 @@ public class OnlineArmenianStoreHomeFacebookIcon extends OnlineArmenianStoreBase
 	}
 
 	@FindBy(xpath = FACEBOOK_BUTTON_XPATH)
-	public WebElement facebookButton;
+	public WebElement facebookIcon;
 
 	@FindBy(xpath = FACEBOOK_PAGE_XPATH)
 	public WebElement facebookPage;
 
-	public OnlineArmenianStoreHomeFacebookIcon facebookButton() {
-		facebookButton.click();
+	public OnlineArmenianStoreHomeFacebookIcon facebookIcon() {
+		facebookIcon.click();
 		return new OnlineArmenianStoreHomeFacebookIcon(this.driver);
 	}
 

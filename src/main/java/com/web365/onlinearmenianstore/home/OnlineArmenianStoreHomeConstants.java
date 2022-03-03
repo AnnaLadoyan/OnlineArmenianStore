@@ -55,6 +55,14 @@ public class OnlineArmenianStoreHomeConstants {
 	public static final String CHAT_WITH_US_PAGE_XPATH = "//strong[text() = 'Chat with Online Armenian Store']";
 	public static final String FACEBOOK_BUTTON_XPATH = "//script[@id = 'facebook-jssdk']";
 	public static final String FACEBOOK_PAGE_XPATH = "//div[@class = 'l9j0dhe7 buofh1pr j83agx80 bp9cbjyn']";
+	public static final String INSTAGRAM_BUTTON_XPATH = "/html/body/div[6]/footer/div/div/aside/div[2]/ul/li[2]/a";
+	public static final String INSTAGRAM_PAGE_XPATH = "//img[@alt = 'Instagram']";
+	public static final String PINTEREST_BUTTON_XPATH = "/html/body/div[6]/footer/div/div/aside/div[2]/ul/li[3]/a";
+	public static final String PINTEREST_PAGE_XPATH = "//h2[text() = 'Pinterest']";
+
+
+
+
 
 
 

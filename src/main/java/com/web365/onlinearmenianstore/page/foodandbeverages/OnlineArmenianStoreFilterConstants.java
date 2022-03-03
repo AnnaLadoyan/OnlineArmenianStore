@@ -16,6 +16,16 @@ public class OnlineArmenianStoreFilterConstants {
 	public static final String SORT_BY_PRICE_LOW_TO_HIGH_XPATH = "//div[@class = 'collection__meta-inner']";
 	public static final String PRICE_HIGH_TO_LOW_XPATH = "//button[@data-value = 'price-descending']";
 	public static final String SORT_BY_PRICE_HIGH_TO_LOW_XPATH = "//div[@class = 'collection__meta-inner']";
+	public static final String DRIED_FRUIT_BUTTON_XPATH = "/html/body/main/div[1]/section/div[1]/div[2]/div[1]/div/div/ul/li[1]/div/ul/li[1]/a";
+	public static final String DRIED_FRUIT_PAGE_XPATH = "//h1[text() = 'Dried Fruits']";
+	public static final String NUTS_BUTTON_XPATH = "/html/body/main/div[1]/section/div[1]/div[2]/div[1]/div/div/ul/li[1]/div/ul/li[2]/a";
+	public static final String NUTS_PAGE_XPATH = "//h1[text() = 'Nuts']";
+	public static final String TEA_BUTTON_XPATH = "/html/body/main/div[1]/section/div[1]/div[2]/div[1]/div/div/ul/li[2]/div/ul/li[1]/a";
+	public static final String TEA_PAGE_XPATH = "//h1[text() = 'Tea']";
+
+
+
+
 
 
 

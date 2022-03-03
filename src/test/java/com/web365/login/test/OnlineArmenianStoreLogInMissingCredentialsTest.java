@@ -12,14 +12,14 @@ public class OnlineArmenianStoreLogInMissingCredentialsTest extends OnlineArmeni
 	public void onlineArmenianStoreLogInMissingCredentials() throws InterruptedException {
 		System.out.println("Test Case ID LogIn2");
 		System.out.println("Verify user is not allowed to login without filling in the email and password fields");
-		OnlineArmenianStoreLogInMissingCredentials logInMissingCredentials = new OnlineArmenianStoreLogInMissingCredentials(driver);
+		OnlineArmenianStoreLogInMissingCredentials logIn = new OnlineArmenianStoreLogInMissingCredentials(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");
-		logInMissingCredentials = logInMissingCredentials.myAccount();
+		logIn = logIn.myAccount();
 		System.out.println("Step 1. Click on the 'My Account' button");
-		logInMissingCredentials = logInMissingCredentials.logInButton();
+		logIn = logIn.logInButton();
 		System.out.println("Step 2. Click on the 'Login' button");
 		
-		Assert.assertTrue(logInMissingCredentials.missingCredentials.isDisplayed());
+		Assert.assertTrue(logIn.missingCredentials.isDisplayed());
 	}
 
 }

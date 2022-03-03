@@ -12,23 +12,23 @@ public class OnlineArmenianStoreLogInValidEmailTest extends OnlineArmenianStoreB
 	public void onlineArmenianStoreLogInValidEmail() throws InterruptedException {
 		System.out.println("Test Case ID LogIn6");
 		System.out.println(" Verify user is able to login with a valid email");
-		OnlineArmenianStoreLogInValidEmail logInValidEmail = new OnlineArmenianStoreLogInValidEmail(driver);
+		OnlineArmenianStoreLogInValidEmail logIn = new OnlineArmenianStoreLogInValidEmail(driver);
 		System.out.println("Navigate to onlinearmenianstore.com");
-		logInValidEmail = logInValidEmail.myAccount();
+		logIn = logIn.myAccount();
 		System.out.println("Step 1.  Click on the 'My Account' button");
-		logInValidEmail = logInValidEmail.emailFieldClick();
+		logIn = logIn.emailFieldClick();
 		System.out.println("Step 2.  Click on the email field");
-		logInValidEmail = logInValidEmail.emailField();
+		logIn = logIn.emailField();
 		System.out.println("Step 3.  Enter 'annaladoyan@yahoo.com' in the email field");
-		logInValidEmail = logInValidEmail.passwordFieldClick();
+		logIn = logIn.passwordFieldClick();
 		System.out.println("Step 4.  Click on the password field");
-		logInValidEmail = logInValidEmail.passwordField();
+		logIn = logIn.passwordField();
 		System.out.println("Step 5.  Enter '1234567890' in the password field");
-		logInValidEmail = logInValidEmail.logInButton();
+		logIn = logIn.logInButton();
 		System.out.println("Step 6.  Click on the login button");
 		
 		
-		Assert.assertTrue(logInValidEmail.logInEmail.isDisplayed());
+		Assert.assertTrue(logIn.logInEmail.isDisplayed());
 	}
 
 
